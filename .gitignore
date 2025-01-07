@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+data/raw/MLPA_kelpfores_fish.6.csv
+data/raw/MLPA_kelpforest_swath.7.csv
+data/raw/MLPA_kelpforest_upc.csv
+*.DS_Store
