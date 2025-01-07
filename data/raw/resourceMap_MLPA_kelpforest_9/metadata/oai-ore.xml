@@ -1,0 +1,85 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/spar/cito/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:ore="http://www.openarchives.org/ore/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_swath.7">
+    <j.0:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest.9"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi:10.25494/P6/MLPA_kelpforest_swath.7</dcterms:identifier>
+    <ore:isAggregatedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/resourceMap_MLPA_kelpforest.9#aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DataONE R Client</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foresite ORE Library</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest.9">
+    <j.0:documents rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest.9"/>
+    <j.0:documents rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_site_table.6"/>
+    <j.0:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest.9"/>
+    <j.0:documents rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_taxon_table.7"/>
+    <j.0:documents rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_fish.6"/>
+    <j.0:documents rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_swath.7"/>
+    <ore:isAggregatedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/resourceMap_MLPA_kelpforest.9#aggregation"/>
+    <j.0:documents rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_sizefreq.6"/>
+    <j.0:documents rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_methods.6"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi:10.25494/P6/MLPA_kelpforest.9</dcterms:identifier>
+    <j.0:documents rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_upc.6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/resourceMap_MLPA_kelpforest.9#aggregation">
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_taxon_table.7"/>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_site_table.6"/>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_methods.6"/>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_upc.6"/>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest.9"/>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_swath.7"/>
+    <dc:title>DataONE Aggregation</dc:title>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_sizefreq.6"/>
+    <ore:aggregates rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_fish.6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_upc.6">
+    <ore:isAggregatedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/resourceMap_MLPA_kelpforest.9#aggregation"/>
+    <j.0:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest.9"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi:10.25494/P6/MLPA_kelpforest_upc.6</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/resourceMap_MLPA_kelpforest.9">
+    <dc:creator rdf:nodeID="A1"/>
+    <ore:describes rdf:resource="https://cn.dataone.org/cn/v2/resolve/resourceMap_MLPA_kelpforest.9#aggregation"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resourceMap_MLPA_kelpforest.9</dcterms:identifier>
+    <dcterms:creator rdf:nodeID="A0"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T20:47:46Z</dcterms:modified>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_site_table.6">
+    <j.0:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest.9"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi:10.25494/P6/MLPA_kelpforest_site_table.6</dcterms:identifier>
+    <ore:isAggregatedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/resourceMap_MLPA_kelpforest.9#aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_methods.6">
+    <j.0:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest.9"/>
+    <ore:isAggregatedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/resourceMap_MLPA_kelpforest.9#aggregation"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi:10.25494/P6/MLPA_kelpforest_methods.6</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_sizefreq.6">
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi:10.25494/P6/MLPA_kelpforest_sizefreq.6</dcterms:identifier>
+    <j.0:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest.9"/>
+    <ore:isAggregatedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/resourceMap_MLPA_kelpforest.9#aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_taxon_table.7">
+    <j.0:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest.9"/>
+    <ore:isAggregatedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/resourceMap_MLPA_kelpforest.9#aggregation"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi:10.25494/P6/MLPA_kelpforest_taxon_table.7</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest_fish.6">
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi:10.25494/P6/MLPA_kelpforest_fish.6</dcterms:identifier>
+    <j.0:isDocumentedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/doi%3A10.25494%2FP6%2FMLPA_kelpforest.9"/>
+    <ore:isAggregatedBy rdf:resource="https://cn.dataone.org/cn/v2/resolve/resourceMap_MLPA_kelpforest.9#aggregation"/>
+  </rdf:Description>
+</rdf:RDF>

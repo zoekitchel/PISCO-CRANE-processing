@@ -1,0 +1,7 @@
+0ee72e1316272bc4fd2bef2b58488ed1 data/MLPA_kelpforest_site_table.6.csv
+5dd31cc0019bb025e0fac3488e6201eb data/MLPA_kelpforest_upc.6.csv
+c7114f6b995eb120d9b8126e1bd9a450 data/MLPA_kelpforest_fish.6.csv
+3ecfdcbca383bdb848d321f1f60fb44f data/MLPA_kelpforest_swath.7.csv
+9b6daeab053fddc6802585a6d5fda5e8 data/MLPA_kelpforest_methods.6.pdf
+6706b408b2c300dd87a2f19926dbcef4 data/MLPA_kelpforest_taxon_table.7.csv
+599c1d056408cfc566da08ffb2757361 data/MLPA_kelpforest_sizefreq.6.csv

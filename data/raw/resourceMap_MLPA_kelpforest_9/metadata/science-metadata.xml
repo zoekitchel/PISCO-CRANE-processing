@@ -1,0 +1,3359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="doi:10.25494/P6/MLPA_kelpforest.9" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" system="unknown">
+  <access authSystem="unknown" order="allowFirst" scope="document">
+    <allow>
+      <principal>0000-0002-1758-7026</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Monitoring and Evaluation of Kelp Forest Ecosystems in the MLPA Marine Protected Area Network</title>
+    <creator>
+      <individualName>
+        <givenName>Mark</givenName>
+        <givenName>H.</givenName>
+        <surName>Carr</surName>
+      </individualName>
+      <organizationName>UCSC</organizationName>
+      <electronicMailAddress>mhcarr@ucsc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-9644-7680</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jennifer</givenName>
+        <givenName>E.</givenName>
+        <surName>Caselle</surName>
+      </individualName>
+      <organizationName>UCSB</organizationName>
+      <electronicMailAddress>caselle@ucsb.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-1364-3123</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Brian</givenName>
+        <givenName>N.</givenName>
+        <surName>Tissot</surName>
+      </individualName>
+      <organizationName>HSU</organizationName>
+      <electronicMailAddress>brian.tissot@humboldt.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0398-2241</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Daniel</givenName>
+        <givenName>J.</givenName>
+        <surName>Pondella</surName>
+      </individualName>
+      <organizationName>VRG</organizationName>
+      <electronicMailAddress>pondella@oxy.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-3105-1671</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Daniel</givenName>
+        <givenName>P.</givenName>
+        <surName>Malone</surName>
+      </individualName>
+      <organizationName>UCSC</organizationName>
+      <electronicMailAddress>dmalone@ucsc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-1758-7026</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kathryn</givenName>
+        <givenName>D.</givenName>
+        <surName>Koehn</surName>
+      </individualName>
+      <organizationName>UCSB</organizationName>
+      <electronicMailAddress>katiedavis@ucsb.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1025-9051</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jeremy</givenName>
+        <givenName>T.</givenName>
+        <surName>Claisse</surName>
+      </individualName>
+      <organizationName>VRG</organizationName>
+      <electronicMailAddress>jtclaisse@cpp.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-3333-9399</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jonathan</givenName>
+        <givenName>P.</givenName>
+        <surName>Williams</surName>
+      </individualName>
+      <organizationName>VRG</organizationName>
+      <electronicMailAddress>jonwilliams@oxy.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-4829-2474</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Avrey</givenName>
+        <surName>Parsons-Field</surName>
+      </individualName>
+      <organizationName>UCSB</organizationName>
+      <electronicMailAddress>avrey.parsons-field@ucsb.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-6126-4136</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sean</givenName>
+        <givenName>F.</givenName>
+        <surName>Criag</surName>
+      </individualName>
+      <organizationName>HSU</organizationName>
+      <electronicMailAddress>Sean.Craig@humboldt.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-0149-3455</userId>
+    </creator>
+    <pubDate>2024-08-13</pubDate>
+    <abstract>
+      <para>
+    The kelp forest monitoring datasets provided here are assembled from
+    four academic institutions involved in the baseline and long-term
+    monitoring phases of California’s statewide Marine Protection Area
+    implementation and evaluation process. These datasets include the
+    baseline periods for all regions, and additional historical data.
+    The Partnership for Interdisciplinary Studies of Coastal Oceans
+    (PISCO) kelp forest program, administered out of the University of
+    California campuses in Santa Cruz and Santa Barbara and funded
+    primarily by the David and Lucile Packard Foundation, has been
+    monitoring across California since 1999, and with a focus on Marine
+    Protected Areas. The Vantuna Research Group at Occidental College
+    has conducted monitoring in the southern California region since
+    1966, and has been using similar sampling methods to the PISCO
+    program to monitor kelp forests in the region since the 2004
+    wide-scale monitoring effort of the Cooperative Research and
+    Assessment of Nearshore Ecosystems (CRANE) Program. Researchers at
+    Humboldt State University began monitoring sites in the north coast
+    region in 2014 and 2015 using the PISCO sampling methodology. Data
+    have been integrated across all four programs.
+  </para>
+      <para>
+    To comprehensively and quantitatively characterize the ecological
+    community and geological features at each kelp forest site, four
+    different sampling methods are employed, all of which are conducted
+    visually by SCUBA divers. Fish transects and benthic macroalgae and
+    invertebrate transects overlap with, but are spatially distinct from
+    one another. Surveys are conducted annually, during the summer or
+    early fall. Typically, two to four sites inside a given MPA and two
+    to four sites outside of the MPA are surveyed in a given year, with
+    the number and shape of sites varying depending on habitat (e.g.
+    onshore-offshore steepness of the reef) and longshore width of the
+    MPA. Sampling history varies by program, MPA, and sampling site.
+  </para>
+      <para>
+    We strongly encourage collaboration with the scientists who collect
+    and manage these data and co-authorship when appropriate, and
+    request that the Data User contact the dataset authors to minimize
+    duplicative efforts. The Data User should realize that these data
+    are likely being actively used by others for ongoing research and
+    that coordination may be necessary to prevent duplicate publication.
+    Please use this form as an initial method of contact:
+  </para>
+      <para>
+    https://docs.google.com/forms/d/e/1FAIpQLSct8vbkyM3l36GjQ0Uq6E50oeCQWlW7682DYecXnTfxpmzlUQ/viewform
+  </para>
+      <para>
+    The Data User is urged to contact the authors of these data if any
+    questions about methodology or results occur. The Data User has an
+    ethical obligation to cite the data source appropriately in any
+    publication or product that results from its use, and notify the
+    dataset authors. A recommended citation for the data package is
+    available from the download page. Please send copies of any
+    published manuscript based on these data to the data contact and
+    data creator. The Data User should be aware that data are updated
+    periodically and it is the responsibility of the Data User to check
+    for new versions of the data. Extensive efforts are made to ensure
+    that online data are accurate and up to date, but the authors will
+    not take responsibility for any errors that may exist in data
+    provided online. Furthermore, the Data User assumes all
+    responsibility for errors in analysis or judgment resulting from use
+    of the data. The data authors and the repository where these data
+    were obtained shall not be liable for damages resulting from any use
+    or misinterpretation of the data.
+  </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Biological data</keyword>
+      <keyword>Kelp forest/shallow subtidal</keyword>
+      <keyword>Rocky reef</keyword>
+      <keyword>Baseline MPA monitoring</keyword>
+      <keyword>Long-term MPA monitoring</keyword>
+      <keyword>Marine protected area (MPA)</keyword>
+      <keyword>MPA research &amp; monitoring</keyword>
+      <keyword>MPA monitoring Action Plan</keyword>
+      <keyword>MPA network</keyword>
+      <keyword>Scuba</keyword>
+      <keyword>Central Coast</keyword>
+      <keyword>North Central Coast</keyword>
+      <keyword>North Coast</keyword>
+      <keyword>South Coast</keyword>
+      <keyword>Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO)</keyword>
+      <keyword>Algae</keyword>
+      <keyword>Fish</keyword>
+      <keyword>Invertebrates</keyword>
+      <keywordThesaurus>California Ocean Protection Council</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>State of California</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-125</westBoundingCoordinate>
+          <eastBoundingCoordinate>-117</eastBoundingCoordinate>
+          <northBoundingCoordinate>42</northBoundingCoordinate>
+          <southBoundingCoordinate>32</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1999-09-07</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2023-12-05</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>Ongoing collection</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Daniel</givenName>
+        <givenName>P.</givenName>
+        <surName>Malone</surName>
+      </individualName>
+      <organizationName>UCSC</organizationName>
+      <electronicMailAddress>dmalone@ucsc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-1758-7026</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+    Kelp forest surveys are conducted annually, generally from June to
+    late October. Sites are surveyed for fishes and benthic organisms
+    separately, with differing transect replication (described below)
+    for the two methods. Transects are laid in a stratified random
+    design with non-fixed transects at specified locations (sites) and
+    targeted depth zones. Often, benthic sampling is conducted in the
+    early part of the summer, with fish sampling commencing later in the
+    summer and continues into the fall, in order to constrain the
+    seasonality of sampling.
+  </para>
+          <para>
+    Fish surveys: The density of all conspicuous fishes (i.e. species
+    whose adults are longer than 10 cm and visually detectable by SCUBA
+    divers) are visually recorded along replicate 2m wide by 2m tall by
+    30m long (120m3) transects. In pairs, one diver surveys this volume
+    along the reef surface (searching within cracks and crevices), while
+    another surveys the same volume roughly one third to one half up
+    into the water column (i.e. “mid-water”) above the benthic diver,
+    depending on visibility and bottom depth. Canopy transects of the
+    same dimensions as the mid-water and bottom transects are surveyed
+    at a subset of sites, mainly to target juvenile fish recruiting to
+    the kelp canopy. Canopy transects are only done where kelp canopy
+    extends to the surface and are usually completed separately from the
+    bottom and midwater transects. On canopy transects, the fish counter
+    swims 2m below the surface counting fishes in the top two meters of
+    the water column. Typically, for each portion of the water column
+    sampled, three 30m long transects are distributed end-to-end and
+    5-10m apart at each of the 5m, 10m, 15m, and 20m isobaths (with
+    additional 25m transects conducted by VRG where habitat is
+    available). Survey depths may vary based on reef topography. Counts
+    on mid-water and bottom transects are eventually combined, thereby
+    generating 12 replicate transects for each site for analyses. At
+    sites with narrow kelp beds, particularly in parts of the Northern
+    Channel Islands, only two zones are sampled, with four transects in
+    each depth zone for a total of eight replicate transects. Fish
+    transects are generally only conducted with at least 3m of
+    horizontal visibility. The total length (TL) of each fish observed
+    is estimated to the closest 1cm. For each transect, divers record
+    the transect depth, horizontal visibility along each transect, water
+    temperature, and sea state (surge), and percent of the transect
+    volume occupied by kelp (PISCO only). 
+  </para>
+          <para>
+    Benthic swaths for algae and invertebrate densities: The density of
+    conspicuous, individually distinguishable macroalgae and
+    macroinvertebrates (i.e. organisms larger than 2.5 cm and visually
+    detectable by SCUBA divers) are visually recorded along replicate 2m
+    wide by 30m long (60m2) transects. For select species (e.g., sea
+    urchins), high densities are spatially subsampled to allow
+    extrapolation to three separate 20m<superscript>2</superscript>
+    segments of the transect. Typically, two 30m long transects are
+    distributed end-to-end and 5-10m apart at each of the 5m, 12.5m, and
+    20m isobaths (with additional 25m transects conducted by VRG where
+    habitat is available). This usually generates six replicate
+    transects for each site. At sites with narrow kelp beds,
+    particularly in parts of the Northern Channel Islands, only two
+    zones are sampled, with two transects in each depth zone for a total
+    of four replicate transects. Giant kelp (<emphasis>Macrocystis
+    pyrifera</emphasis>) and bull kelp (<emphasis>Nereocystis
+    luetkeana</emphasis>) individuals are enumerated when they reach a
+    stipe height of &gt; 1m, and the number of giant kelp stipes for
+    each individual are also counted. Size cut-offs for inclusion of
+    other understory kelps and large macroalgae, and descriptions of
+    size cut-offs for invertebrates are described in the taxonomic
+    table.
+  </para>
+          <para>
+    Benthic point contact for algae and invertebrate percent cover: The
+    percent cover of sessile non-individually distinguishable macroalgae
+    and macroinvertebrates (e.g. colonial invertebrates, foliose
+    macroalgae) are visually recorded along the same replicate 30m long
+    transects used to conduct benthic swath surveys. Typically, two 30m
+    long transects are distributed end-to-end and 5-10m apart at each of
+    the 5m, 12.5m, and 20m isobaths (with additional 25m transects
+    conducted by VRG where habitat is available). This usually generates
+    six replicate transects for each site. At sites with narrow kelp
+    beds, particularly in parts of the Northern Channel Islands, only
+    two zones are sampled, with two transects in each depth zone for a
+    total of four replicate transects. At each meter mark along the 30m
+    transect, the diver records the underlying substrate (bedrock,
+    boulder, cobble, or sand), vertical relief (maximum vertical
+    distance in a 0.5x1m box centered on the point, categorized into
+    0-10cm, 10cm-1m, 1-2m, and &gt;2m bins), and cover (non-mobile
+    primary space holding organism or bare substrate type). An
+    additional category consisting of a small subset of specific
+    organisms which may be ephemeral, and tend to create a layer over
+    primary space holders are recorded, when present, as a superlayer.
+    Examples include low-lying, very large-bladed macroalgae such as
+    <emphasis>Laminaria farlowii</emphasis>, brittle stars, drift algae,
+    and abalone in the Northern region. Superlayer classifications vary
+    by survey region, and are further defined in the taxonomic table.
+  </para>
+          <para>
+    Size surveys for selected algae and invertebrates: Size frequency
+    measurements of body size of targeted invertebrate species (e.g.,
+    red and purple urchins, abalone in the genus
+    <emphasis>Haliotis</emphasis>, spiny lobsters, seastars) are
+    recorded by divers both along benthic transects and at random
+    locations within a study site. Organisms are generally measured by
+    divers in situ, and measured sizes correspond with test diameter for
+    urchins, length of longest arm for seastars, shell length for
+    shelled mollusks, carapace length for lobsters, and total turgid
+    length for sea cucumbers. In the case of urchins sampled by UCSB and
+    VRG in Southern California, large numbers of individuals may be
+    collected in bags and brought aboard the research vessel to
+    facilitate measurement. 
+  </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Monitoring and Evaluation of Kelp Forest Ecosystems in the MLPA Marine Protected Area Network (CA OPC) and PISCO (David and Louise Packard Foundation)</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>H.</givenName>
+          <surName>Carr</surName>
+        </individualName>
+        <organizationName>UCSC</organizationName>
+        <electronicMailAddress>mhcarr@ucsc.edu</electronicMailAddress>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0001-9644-7680</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>0CAI5032</funding>
+    </project>
+    <dataTable>
+      <entityName>MLPA kelp  forest swath data</entityName>
+      <entityDescription>Transect-level counts (densities) of macroinvertebrates and select macroalgae</entityDescription>
+      <physical>
+        <objectName>MLPA_kelpforest_swath.7.csv</objectName>
+        <size unit="bytes">38872219</size>
+        <authentication method="MD5">3ecfdcbca383bdb848d321f1f60fb44f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/doi:10.25494/P6/MLPA_kelpforest_swath.7</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>campus</attributeName>
+          <attributeDefinition>The academic partner campus that conducted the survey</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HSU</code>
+                    <definition>Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UCSC</code>
+                    <definition>University of California, Santa Cruz</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UCSB</code>
+                    <definition>University of California, Santa Barbara</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VRG</code>
+                    <definition>Vantuna Research Group, Occidental College</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>method</attributeName>
+          <attributeDefinition>The code describing the sampling technique and monitoring program that conducted each survey</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SBTL_SWATH_HSU</code>
+                    <definition>Subtidal swath survey conducted by Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_SWATH_PISCO</code>
+                    <definition>Subtidal swath survey conducted by the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO) Program</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_SWATH_VRG</code>
+                    <definition>Subtidal swath survey conducted by the Vantuna Research Group at Occidental College</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>survey_year</attributeName>
+          <attributeDefinition>The designated year associated with the annual survey. In most cases, survey_year and year are the same. In rare cases, surveys are completed early in the year following the designated survey year. In these cases, survey_year will differ from year</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year that the survey was conducted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>Month that the survey was conducted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>Day that the survey was conducted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>The unique site where the survey was performed (as defined in the site table). This site refers to a specific GPS location and is often associated with a geographic placename. Often, multiple site replicates will be associated with a single placename, and will be delineated with additional geographical or directional information (e.g. North/South/East/West/Central - N/S/E/W/CEN, Upcoast/Downcoast - UC/DC)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique site where the survey was performed (as defined in the site table). This site refers to a specific GPS location and is often associated with a geographic placename. Often, multiple site replicates will be associated with a single placename, and will be delineated with additional geographical or directional information (e.g. North/South/East/West/Central - N/S/E/W/CEN, Upcoast/Downcoast - UC/DC)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>zone</attributeName>
+          <attributeDefinition>A division of the site into 2 to 4 categories representing onshore-offshore stratification associated with targeted bottom depths for transects</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>INNER</code>
+                    <definition>Depth zone targeting roughly 5m of water depth, or the inner edge of  the reef (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MID</code>
+                    <definition>Depth zone targeting roughly 10-15m of water depth (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OUTMID</code>
+                    <definition>Depth zone targeting roughly 15m of water depth (actual depth will vary depending on site topography), not generally used for swath surveys</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OUTER</code>
+                    <definition>Depth zone targeting roughly 20m of water depth (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DEEP</code>
+                    <definition>Depth zone targeting roughly 25m of water depth, where present (actual depth will vary depending on site topography), used only by VRG</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>transect</attributeName>
+          <attributeDefinition>The unique transect replicate within each site and zone</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique transect replicate within each site and zone</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>classcode</attributeName>
+          <attributeDefinition>The unique taxonomic classification code that is being counted, as defined in the taxonomic table. This refers to a code that defines the Genus and Species that is identified, a code that represents a limited number of species that can't be narrowed down to one species, or in some cases family-level or higher order groupings. Generally, for invertebrates and algae, the classcode is comprised of the first three letters of the genus, and the first three letters of the species, with some exceptions</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique taxonomic classification code that is being counted, as defined in the taxonomic table. This refers to a code that defines the Genus and Species that is identified, a code that represents a limited number of species that can't be narrowed down to one species, or in some cases family-level or higher order groupings. Generally, for invertebrates and algae, the classcode is comprised of the first three letters of the genus, and the first three letters of the species, with some exceptions</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>count</attributeName>
+          <attributeDefinition>The count is the number of individuals of a given classcode (of a given size when applicable) per transect</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">13450</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>size</attributeName>
+          <attributeDefinition>For Macrocystis pyrifera, this represents the number of individual stipes growing for each individual. For a select number of invertebrate species that are measured on swath transects, this represents the size (in centimeters) of the following:  test diameter for urchins, length of longest arm for seastars, shell length for abalone, carapace length for lobsters, total turgid length for sea cucumbers</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5</minimum>
+                  <maximum exclusive="false">554</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>disease</attributeName>
+          <attributeDefinition>For some years echinoderm disease was recorded on transects for select species. When systematic observation for disease was conducted, disease is indicated here. Where blank, disease was not evaluated.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HEALTHY</code>
+                    <definition>Individual was inspected and no was disease observed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>YES</code>
+                    <definition>Some form of disease was observed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MILD</code>
+                    <definition>Mild disease was observed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SEVERE</code>
+                    <definition>Severe disease was observed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WASTING</code>
+                    <definition>Wasting disease was observed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BLACK SPOT</code>
+                    <definition>Black spot disease was observed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Depth of the transect estimated by the diver</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.2</minimum>
+                  <maximum exclusive="false">29</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>observer</attributeName>
+          <attributeDefinition>The diver who conducted the survey transect</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The diver who conducted the survey transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>notes</attributeName>
+          <attributeDefinition>Free text notes taken at the time of the sample, or added at the time of data entry</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Free text notes taken at the time of the sample, or added at the time of data entry</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>site_name_old</attributeName>
+          <attributeDefinition>In cases when specific sites have been surveyed by multiple campuses using different site names, this variable indicates the alternative (historical) site name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>In cases when specific sites have been surveyed by multiple campuses using different site names, this variable indicates the alternative (historical) site name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>329195</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>MLPA kelp forest upc data</entityName>
+      <entityDescription>Transect-level percent cover of substrate, relief, and cover of non-mobile invertebrates and algae based on a uniform point contact methodology.</entityDescription>
+      <physical>
+        <objectName>MLPA_kelpforest_upc.6.csv</objectName>
+        <size unit="bytes">27998887</size>
+        <authentication method="MD5">5dd31cc0019bb025e0fac3488e6201eb</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/doi:10.25494/P6/MLPA_kelpforest_upc.6</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>campus</attributeName>
+          <attributeDefinition>The academic partner campus that conducted the survey</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HSU</code>
+                    <definition>Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UCSC</code>
+                    <definition>University of California, Santa Cruz</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UCSB</code>
+                    <definition>University of California, Santa Barbara</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VRG</code>
+                    <definition>Vantuna Research Group, Occidental College</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>method</attributeName>
+          <attributeDefinition>The code describing the sampling technique and monitoring program that conducted each survey</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SBTL_UPC_HSU</code>
+                    <definition>Subtidal upc survey conducted by Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_UPC_PISCO</code>
+                    <definition>Subtidal upc survey conducted by the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO) Program</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_UPC_VRG</code>
+                    <definition>Subtidal upc survey conducted by the Vantuna Research Group at Occidental College</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>survey_year</attributeName>
+          <attributeDefinition>The designated year associated with the annual survey. In most cases, survey_year and year are the same. In rare cases, surveys are completed early in the year following the designated survey year. In these cases, survey_year will differ from year</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year that the survey was conducted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>Month that the survey was conducted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>Day that the survey was conducted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>The unique site where the survey was performed (as defined in the site table). This site refers to a specific GPS location and is often associated with a geographic placename. Often, multiple site replicates will be associated with a single placename, and will be delineated with additional geographical or directional information (e.g. North/South/East/West/Central - N/S/E/W/CEN, Upcoast/Downcoast - UC/DC)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique site where the survey was performed (as defined in the site table). This site refers to a specific GPS location and is often associated with a geographic placename. Often, multiple site replicates will be associated with a single placename, and will be delineated with additional geographical or directional information (e.g. North/South/East/West/Central - N/S/E/W/CEN, Upcoast/Downcoast - UC/DC)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>zone</attributeName>
+          <attributeDefinition>A division of the site into 2 to 4 categories representing onshore-offshore stratification associated with targeted bottom depths for transects</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>INNER</code>
+                    <definition>Depth zone targeting roughly 5m of water depth, or the inner edge of  the reef (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MID</code>
+                    <definition>Depth zone targeting roughly 10-15m of water depth (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OUTMID</code>
+                    <definition>Depth zone targeting roughly 15m of water depth (actual depth will vary depending on site topography), not generally used for swath surveys</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OUTER</code>
+                    <definition>Depth zone targeting roughly 20m of water depth (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DEEP</code>
+                    <definition>Depth zone targeting roughly 25m of water depth, where present (actual depth will vary depending on site topography), used only by VRG</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>transect</attributeName>
+          <attributeDefinition>The unique transect replicate within each site and zone</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique transect replicate within each site and zone</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>category</attributeName>
+          <attributeDefinition>The code indicating which of four types of data are collected on each point. Categories may be SUBSTRATE, RELIEF, COVER and SUPERLAYER. Percent cover should be calculated for each category separately. For SUPERLAYER, the total number of points will not necessarily equal the targeted number of points surveyed in each of the other categories (i.e. superlayer is specific to certain organisms that are only included if present).</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>COVER</code>
+                    <definition>Primary space holding, non-mobile organism or bare substrate type present at each point, cover types are defined in taxonomic table</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RELIEF</code>
+                    <definition>Physical relief is measured as the greatest vertical relief that exists within a 1m wide section across the tape and a 0.5m section along that tape that is centered over the point. Relief categories can be 0-10cm, 10cm-1m, 1-2m, and &gt;2m</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUBSTRATE</code>
+                    <definition>Substrate type underlying each point. Substrate categories include bedrock , boulder, cobble, and sand and are further defined in the taxonomic table</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUPERLAYER</code>
+                    <definition>Superlayer includes a small subset of specific organisms which may be ephemeral, and tend to create a layer over primary space holders. Examples include low-lying, very  large-bladed macroalgae such as Laminaria farlowii, brittle stars, and drift algae and in the Northern region abalone are recorded as a superlayer when occupying the space at the point. Not recorded at all points, only where present</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>classcode</attributeName>
+          <attributeDefinition>The unique taxonomic classification code that is being counted, as defined in the taxonomic table. This refers to a code that defines the Genus and Species that is identified, a code that represents a limited number of species that can't be narrowed down to one species, or in some cases family-level, higher order, or morphological groupings. Generally, for invertebrates and algae, the classcode is comprised of the first three letters of the genus, and the first three letters of the species, with some exceptions, and upc organisms are often classified by common names for groups of species</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique taxonomic classification code that is being counted, as defined in the taxonomic table. This refers to a code that defines the Genus and Species that is identified, a code that represents a limited number of species that can't be narrowed down to one species, or in some cases family-level, higher order, or morphological groupings. Generally, for invertebrates and algae, the classcode is comprised of the first three letters of the genus, and the first three letters of the species, with some exceptions, and upc organisms are often classified by common names for groups of species</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>count</attributeName>
+          <attributeDefinition>The number of points of a given category and classcode per transect</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pct_cov</attributeName>
+          <attributeDefinition>Percent cover, calculated by dividing the number of points of a given category and classcode by the total number of points of a category per transect. The percent cover of superlayer is calculated by dividing the number of points of a superlayer classcode by the total number of points in the cover category, since superlayers are not present at all points.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.9</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Depth of the transect estimated by the diver</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.5</minimum>
+                  <maximum exclusive="false">32.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>observer</attributeName>
+          <attributeDefinition>The diver who conducted the survey transect</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The diver who conducted the survey transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>notes</attributeName>
+          <attributeDefinition>Free text notes taken at the time of the sample, or added at the time of data entry</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Free text notes taken at the time of the sample, or added at the time of data entry</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>site_name_old</attributeName>
+          <attributeDefinition>In cases when specific sites have been surveyed by multiple campuses using different site names, this variable indicates the alternative (historical) site name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>In cases when specific sites have been surveyed by multiple campuses using different site names, this variable indicates the alternative (historical) site name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>236455</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>MLPA kelp forest size frequency data</entityName>
+      <entityDescription>Size frequency measurements of select invertebrates. Organisms are measured on survey transects, or off of survey transects across the general site.</entityDescription>
+      <physical>
+        <objectName>MLPA_kelpforest_sizefreq.6.csv</objectName>
+        <size unit="bytes">7318833</size>
+        <authentication method="MD5">599c1d056408cfc566da08ffb2757361</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/doi:10.25494/P6/MLPA_kelpforest_sizefreq.6</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>campus</attributeName>
+          <attributeDefinition>The academic partner campus that conducted the survey</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HSU</code>
+                    <definition>Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UCSC</code>
+                    <definition>University of California, Santa Cruz</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UCSB</code>
+                    <definition>University of California, Santa Barbara</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VRG</code>
+                    <definition>Vantuna Research Group, Occidental College</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>method</attributeName>
+          <attributeDefinition>The code describing the sampling technique and monitoring program that conducted each survey</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SBTL_SIZEFREQ_HSU</code>
+                    <definition>Subtidal size frequency survey conducted by Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_SIZEFREQ_PISCO</code>
+                    <definition>Subtidal size frequency survey conducted by the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO) Program</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_SIZEFREQ_VRG</code>
+                    <definition>Subtidal size frequency survey conducted by the Vantuna Research Group at Occidental College</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_SWATH_HSU</code>
+                    <definition>Subtidal swath survey conducted by Humboldt State University. Sizes recorded as part of swath surveys are duplicated in the size frequency dataset.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_SWATH_PISCO</code>
+                    <definition>Subtidal swath survey conducted by the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO) Program. Sizes recorded as part of swath surveys are duplicated in the size frequency dataset.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>survey_year</attributeName>
+          <attributeDefinition>The designated year associated with the annual survey. In most cases, survey_year and year are the same. In rare cases, surveys are completed early in the year following the designated survey year. In these cases, survey_year will differ from year</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year that the survey was conducted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>Month that the survey was conducted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>Day that the survey was conducted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>The unique site where the survey was performed (as defined in the site table). This site refers to a specific GPS location and is often associated with a geographic placename. Often, multiple site replicates will be associated with a single placename, and will be delineated with additional geographical or directional information (e.g. North/South/East/West/Central - N/S/E/W/CEN, Upcoast/Downcoast - UC/DC)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique site where the survey was performed (as defined in the site table). This site refers to a specific GPS location and is often associated with a geographic placename. Often, multiple site replicates will be associated with a single placename, and will be delineated with additional geographical or directional information (e.g. North/South/East/West/Central - N/S/E/W/CEN, Upcoast/Downcoast - UC/DC)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>location</attributeName>
+          <attributeDefinition>The location where the size observation was recorded: RANDOM indicates sizes measures across the general site that were not specifically located on the swath/upc transect, TRANSECT indicates sizes measured on the swath/upc transects, and SIZE_TRANSECT applies to HSU only where specific size frequency transects are conducted separately from swath/upc transects</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RANDOM</code>
+                    <definition>Size measurements were collected across the general site and were not specifically located on the swath/upc transect</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRANSECT</code>
+                    <definition>Size measurements were collected from the swath/upc transects. If method is swath, then this information was collected by the swath diver as part of the swath survey.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SIZE_TRANSECT</code>
+                    <definition>Applies to HSU only where size measurements were collected on specific size frequency transects conducted separately from swath/upc transects</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>zone</attributeName>
+          <attributeDefinition>A division of the site into 2 to 4 categories representing onshore-offshore stratification associated with targeted bottom depths for transects. If size information is not associated with a specific zone this will be left blank</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>INNER</code>
+                    <definition>Depth zone targeting roughly 5m of water depth, or the inner edge of  the reef (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MID</code>
+                    <definition>Depth zone targeting roughly 10-15m of water depth (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OUTMID</code>
+                    <definition>Depth zone targeting roughly 15m of water depth (actual depth will vary depending on site topography), not generally used for swath surveys</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OUTER</code>
+                    <definition>Depth zone targeting roughly 20m of water depth (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DEEP</code>
+                    <definition>Depth zone targeting roughly 25m of water depth, where present (actual depth will vary depending on site topography), used only by VRG</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>transect</attributeName>
+          <attributeDefinition>The unique transect replicate within each site and zone. If size information is not associated with a specific transect this will be left blank.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique transect replicate within each site and zone. If size information is not associated with a specific transect this will be left blank.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>classcode</attributeName>
+          <attributeDefinition>The unique taxonomic classification code that is being counted, as defined in the taxonomic table. This refers to a code that defines the Genus and Species that is identified, a code that represents a limited number of species that can't be narrowed down to one species, or in some cases family-level or higher order groupings. Generally, for invertebrates and algae, the classcode is comprised of the first three letters of the genus, and the first three letters of the species, with some exceptions</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique taxonomic classification code that is being counted, as defined in the taxonomic table. This refers to a code that defines the Genus and Species that is identified, a code that represents a limited number of species that can't be narrowed down to one species, or in some cases family-level or higher order groupings. Generally, for invertebrates and algae, the classcode is comprised of the first three letters of the genus, and the first three letters of the species, with some exceptions</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>count</attributeName>
+          <attributeDefinition>The number of individuals of a given classcode and size observed at the finest spatial scale indicated (site, zone, or transect)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">75</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>size</attributeName>
+          <attributeDefinition>Size (in centimeters) of observation. For specific species groups, measured sizes correspond with test diameter for urchins, length of longest arm for seastars, shell length for shelled mollusks, carapace length for lobsters, total turgid length for sea cucumbers</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.2</minimum>
+                  <maximum exclusive="false">37</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>disease</attributeName>
+          <attributeDefinition>For some years echinoderm disease was recorded for select species. When systematic observation for disease was conducted, disease is indicated here. Where blank, disease was not evaluated.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HEALTHY</code>
+                    <definition>Individual was inspected and no was disease observed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>YES</code>
+                    <definition>Some form of disease was observed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MILD</code>
+                    <definition>Mild disease was observed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SEVERE</code>
+                    <definition>Severe disease was observed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WASTING</code>
+                    <definition>Wasting disease was observed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BLACK SPOT</code>
+                    <definition>Black spot disease was observed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Depth of the size observation estimated by the diver</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.44</minimum>
+                  <maximum exclusive="false">23.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>observer</attributeName>
+          <attributeDefinition>The diver who measured the organism</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The diver who measured the organism</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>notes</attributeName>
+          <attributeDefinition>Free text notes taken at the time of the sample, or added at the time of data entry</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Free text notes taken at the time of the sample, or added at the time of data entry</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>site_name_old</attributeName>
+          <attributeDefinition>In cases when specific sites have been surveyed by multiple campuses using different site names, this variable indicates the alternative (historical) site name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>In cases when specific sites have been surveyed by multiple campuses using different site names, this variable indicates the alternative (historical) site name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>66065</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>MLPA kelp forest fish data</entityName>
+      <entityDescription>Transect-level counts (densities) and size estimates of kelp forest fishes.</entityDescription>
+      <physical>
+        <objectName>MLPA_kelpforest_fish.6.csv</objectName>
+        <size unit="bytes">66205928</size>
+        <authentication method="MD5">c7114f6b995eb120d9b8126e1bd9a450</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/doi:10.25494/P6/MLPA_kelpforest_fish.6</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>campus</attributeName>
+          <attributeDefinition>The academic partner campus that conducted the survey</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HSU</code>
+                    <definition>Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UCSC</code>
+                    <definition>University of California, Santa Cruz</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UCSB</code>
+                    <definition>University of California, Santa Barbara</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VRG</code>
+                    <definition>Vantuna Research Group, Occidental College</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>method</attributeName>
+          <attributeDefinition>The code describing the sampling technique and monitoring program that conducted each survey</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SBTL_FISH_CRANE</code>
+                    <definition>Subtidal fish survey conducted by the Cooperative Research and Assessment of Nearshore Ecosystems (CRANE) Program</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_FISH_HSU</code>
+                    <definition>Subtidal fish survey conducted by Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_FISH_PISCO</code>
+                    <definition>Subtidal fish survey conducted by the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO) Program</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_FISH_VRG</code>
+                    <definition>Subtidal fish survey conducted by the Vantuna Research Group at Occidental College</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>survey_year</attributeName>
+          <attributeDefinition>The designated year associated with the annual survey. In most cases, survey_year and year are the same. In rare cases, surveys are completed early in the year following the designated survey year. In these cases, survey_year will differ from year</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>Year that the survey was conducted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>month</attributeName>
+          <attributeDefinition>Month that the survey was conducted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>day</attributeName>
+          <attributeDefinition>Day that the survey was conducted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>The unique site where the survey was performed (as defined in the site table). This site refers to a specific GPS location and is often associated with a geographic placename. Often, multiple site replicates will be associated with a single placename, and will be delineated with additional geographical or directional information (e.g. North/South/East/West/Central - N/S/E/W/CEN, Upcoast/Downcoast - UC/DC)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique site where the survey was performed (as defined in the site table). This site refers to a specific GPS location and is often associated with a geographic placename. Often, multiple site replicates will be associated with a single placename, and will be delineated with additional geographical or directional information (e.g. North/South/East/West/Central - N/S/E/W/CEN, Upcoast/Downcoast - UC/DC)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>zone</attributeName>
+          <attributeDefinition>A division of the site into 2 to 4 categories representing onshore-offshore stratification associated with targeted bottom depths for transects</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>INNER</code>
+                    <definition>Depth zone targeting roughly 5m of water depth, or the inner edge of  the reef (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>INMID</code>
+                    <definition>Depth zone targeting roughly 10m of water depth (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MID</code>
+                    <definition>Depth zone targeting roughly 10-15m of water depth (actual depth will vary depending on site topography), used by VRG and in early years of PISCO</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OUTMID</code>
+                    <definition>Depth zone targeting roughly 15m of water depth (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OUTER</code>
+                    <definition>Depth zone targeting roughly 20m of water depth (actual depth will vary depending on site topography)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DEEP</code>
+                    <definition>Depth zone targeting roughly 25m of water depth, where present (actual depth will vary depending on site topography), used only by VRG</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>level</attributeName>
+          <attributeDefinition>The horizontal placement of the transect within the water column. Includes BOT: bottom transects placed at the seafloor, MID: midwater transects placed at roughly half the depth of the seafloor, and CAN:  canopy transects placed at the surface to survey the top two meters of the water column and kelp canopy (when present)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BOT</code>
+                    <definition>Transect placed on the seafloor and the lower 2m of the water column surveyed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MID</code>
+                    <definition>Transect placed in the midwater, at roughly half of the depth of the seafloor (depending on visibility)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CAN</code>
+                    <definition>Transect placed at the surface and the upper 2m of water column and kelp canopy surveyed. Canopy transects are only conducted when kelp is present and forms a canopy at the surface</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CNMD</code>
+                    <definition>When an inner transect is too shallow to allow both canopy and midwater transects without overlapping, level is coded as CNMD and transects can be ascribed to either midwater or canopy (applies to UCSB and VRG only)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>transect</attributeName>
+          <attributeDefinition>The unique transect replicate within each site, zone, and level</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique transect replicate within each site, zone, and level</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>classcode</attributeName>
+          <attributeDefinition>The unique taxonomic classification code that is being counted, as defined in the taxonomic table. This refers to a code that defines the Genus and Species that is identified, a code that represents a limited number of species that can't be narrowed down to one species, or in some cases family-level or higher order groupings. Generally, for fishes, the classcode is comprised of the first letter of the genus, and the first three letters of the species, with some exceptions</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique taxonomic classification code that is being counted, as defined in the taxonomic table. This refers to a code that defines the Genus and Species that is identified, a code that represents a limited number of species that can't be narrowed down to one species, or in some cases family-level or higher order groupings. Generally, for fishes, the classcode is comprised of the first letter of the genus, and the first three letters of the species, with some exceptions</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>count</attributeName>
+          <attributeDefinition>The count is the number of individuals of a given classcode of a given size per transect</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">10000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fish_tl</attributeName>
+          <attributeDefinition>The total length of an individual or group of individuals (of the same length) OR the average total length for a group of fish where a range in lengths is specified (rounded to the nearest cm)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5</minimum>
+                  <maximum exclusive="false">300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_tl</attributeName>
+          <attributeDefinition>The minimum size of the sampled class, used only when a range of sizes was recorded for a group of individuals of a species</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5</minimum>
+                  <maximum exclusive="false">300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_tl</attributeName>
+          <attributeDefinition>The maximum size of the sampled class, used only when a range of sizes was recorded for a group of individuals of a species</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeDefinition>The sex classification for sexually dimorphic species where sex can be distinguished visually and is recorded. For some species, individuals with juvenile markings are also indicated here</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>FEMALE</code>
+                    <definition>Fish has external morphological features consistent with a female</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MALE</code>
+                    <definition>Fish has external morphological features consistent with a male</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRANSITIONAL</code>
+                    <definition>Fish has external morphological features consistent with both male and female (applies to sex changing fishes such as California sheephead)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JUVENILE</code>
+                    <definition>Fish has markings consistent with a juvenile life phase. Not always recorded</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>observer</attributeName>
+          <attributeDefinition>The diver who conducted the survey transect</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The diver who conducted the survey transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Depth of the transect estimated by the diver</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.2</minimum>
+                  <maximum exclusive="false">33.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>vis</attributeName>
+          <attributeDefinition>The diver's estimation of horizontal visibility on each  transect. Measured by reeling in the transect tape and noting the distance at which the end of the tape can first be seen</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5</minimum>
+                  <maximum exclusive="false">54</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp</attributeName>
+          <attributeDefinition>The temperature on each transect measured by the diver's computer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">7</minimum>
+                  <maximum exclusive="false">25.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>surge</attributeName>
+          <attributeDefinition>The diver's estimation of magnitude of horizontal displacement on each transect</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>LIGHT</code>
+                    <definition>No significant surge</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MODERATE</code>
+                    <definition>Surge causing noticeable lateral movement, diver must compensate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HIGH</code>
+                    <definition>Significant surge, diver moved out of transect bounds when not holding on</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pctcnpy</attributeName>
+          <attributeDefinition>The diver's estimation of the percent of the transect, by volume, that is occupied by kelp. This estimation is specific to the level of the transect that is being surveyed (i.e. excluding canopy transects, this not an estimation of surface canopy but of the amount of kelp within the transect at the specified level)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>0% of transect volume occupied by kelp</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>1-33% of transect volume occupied by kelp</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>34-66% of transect volume occupied by kelp</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>67-100% of transect volume occupied by kelp</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>notes</attributeName>
+          <attributeDefinition>Free text notes taken at the time of the sample, or added at the time of data entry</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Free text notes taken at the time of the sample, or added at the time of data entry</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>site_name_old</attributeName>
+          <attributeDefinition>In cases when specific sites have been surveyed by multiple campuses using different site names, this variable indicates the alternative (historical) site name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>In cases when specific sites have been surveyed by multiple campuses using different site names, this variable indicates the alternative (historical) site name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>517109</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>MLPA taxonomic lookup table</entityName>
+      <entityDescription>Species (and species-grouping) code descriptions, taxonomic classifications, and sampling histories for all sampled organisms.</entityDescription>
+      <physical>
+        <objectName>MLPA_kelpforest_taxon_table.7.csv</objectName>
+        <size unit="bytes">383872</size>
+        <authentication method="MD5">6706b408b2c300dd87a2f19926dbcef4</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/doi:10.25494/P6/MLPA_kelpforest_taxon_table.7</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>campus</attributeName>
+          <attributeDefinition>The academic partner campus associated with each sample type and monitoring history</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HSU</code>
+                    <definition>Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UCSC</code>
+                    <definition>University of California, Santa Cruz</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UCSB</code>
+                    <definition>University of California, Santa Barbara</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VRG</code>
+                    <definition>Vantuna Research Group, Occidental College</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sample_type</attributeName>
+          <attributeDefinition>The type of survey in which a particular taxonomic code is used. These correspond to the major MLPA subtidal community survey types: fish, swath, upc (uniform point contact), and size-frequency</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>FISH</code>
+                    <definition>Survey method = fish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SIZEFREQ</code>
+                    <definition>Survey method = size frequency</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SWATH</code>
+                    <definition>Survey method = swath</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UPC</code>
+                    <definition>Survey method = uniform point contact</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sample_subtype</attributeName>
+          <attributeDefinition>Defines types of observations within a particular survey type. Examples include SUBSTRATE, RELIEF and COVER which are types of classifications within the UPC sample-type methodology. And INVERT and ALGAE are subtypes within the swath sample-type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>FISH</code>
+                    <definition>Survey method = fish (no subdivision)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SIZEFREQ</code>
+                    <definition>Survey method = size frequency (no subdivision)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ALGAE</code>
+                    <definition>Subset of sample method swath, where organism type is algae</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>INVERT</code>
+                    <definition>Subset of sample method swath, where organism type is invertebrate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SWATH</code>
+                    <definition>Subset of sample method swath, applies only to transects with no organisms (where algae or invertebrate classification does not apply)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>COVER</code>
+                    <definition>Subset of sample method upc, primary substrate holding organism or non-biological cover type</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RELIEF</code>
+                    <definition>Subset of sample method upc, category of vertical relief in a defined area around each point</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUBSTRATE</code>
+                    <definition>Subset of sample method upc, substrate type at each point</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUPERLAYER</code>
+                    <definition>Subset of sample method upc, specialized category to record species which overgrow other benthic organisms and may be ephemeral. Not recorded for all points, only when present</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>classcode</attributeName>
+          <attributeDefinition>The unique taxonomic classification code that is being counted, as defined in the taxonomic table. This refers to a code that defines the Genus and Species that is identified, a code that represents a limited number of species that can't be narrowed down to one species, or in some cases family-level or higher order groupings</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique taxonomic classification code that is being counted, as defined in the taxonomic table. This refers to a code that defines the Genus and Species that is identified, a code that represents a limited number of species that can't be narrowed down to one species, or in some cases family-level or higher order groupings</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>orig_classcode</attributeName>
+          <attributeDefinition>The unique taxonomic classification code that is being counted, as defined in the taxonomic table for each sampling group. Original classcodes when different between monitoring groups are translated into a common set of codes (see 'classcode')</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique taxonomic classification code that is being counted, as defined in the taxonomic table for each sampling group. Original classcodes when different between monitoring groups are translated into a common set of codes (see 'classcode')</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Kingdom</attributeName>
+          <attributeDefinition>The scientific kingdom name, will be NA for non-living, and non-biological classcodes</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The scientific kingdom name, will be NA for non-living, and non-biological classcodes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Phylum</attributeName>
+          <attributeDefinition>The scientific phylum name, will be NA for higher level groupings, non-living, and non-biological classcodes</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The scientific phylum name, will be NA for higher level groupings, non-living, and non-biological classcodes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Class</attributeName>
+          <attributeDefinition>The scientific class name, will be NA for higher level groupings, non-living, and non-biological classcodes</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The scientific class name, will be NA for higher level groupings, non-living, and non-biological classcodes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Order</attributeName>
+          <attributeDefinition>The scientific order name, will be NA for higher level groupings, non-living, and non-biological classcodes</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The scientific order name, will be NA for higher level groupings, non-living, and non-biological classcodes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Family</attributeName>
+          <attributeDefinition>The scientific family name, will be NA for higher level groupings, non-living, and non-biological classcodes</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The scientific family name, will be NA for higher level groupings, non-living, and non-biological classcodes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeDefinition>The scientific genus name, will be NA for higher level groupings, non-living, and non-biological classcodes</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The scientific genus name, will be NA for higher level groupings, non-living, and non-biological classcodes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>The scientific species name, will be NA for higher level groupings, non-living, and non-biological classcodes</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The scientific species name, will be NA for higher level groupings, non-living, and non-biological classcodes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>species_definition</attributeName>
+          <attributeDefinition>The scientific genus and species if applicable. If a classcode is comprised of a higher-level taxonomic grouping, the higher level taxonomic classification is listed. Specific species groupings, non-living, or non-biological classcodes are described here.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The scientific genus and species if applicable. If a classcode is comprised of a higher-level taxonomic grouping, the higher level taxonomic classification is listed. Specific species groupings, non-living, or non-biological classcodes are described here.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>taxonomic_source</attributeName>
+          <attributeDefinition>The source of the taxonomic identifier. For all classcodes associated with living organisms, the source is the World Register of Marine Species (WoRMS, http://www.marinespecies.org/), for non-living, non-biological, and some groupings, the codes are defined by the specific project (MLPA Kelp Forest Monitoring Program)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WoRMS</code>
+                    <definition>AphiaID associated with the species or other taxonomic group</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MLPA_kelpforest</code>
+                    <definition>When a classcode is not defined by a specific taxonomic ranking (e.g. family, species) the classcode is defined by the specific project (MLPA Kelp Forest Monitoring Program)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>taxonomic_id</attributeName>
+          <attributeDefinition>The unique numeric identifier for one or more taxonomic groupings as defined in the Aphia database: https://www.marinespecies.org/about.php#what_is_aphia, will be NA for non-living, and non-biological classcodes</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique numeric identifier for one or more taxonomic groupings as defined in the Aphia database: https://www.marinespecies.org/about.php#what_is_aphia, will be NA for non-living, and non-biological classcodes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>common_name</attributeName>
+          <attributeDefinition>The common name or description for a species or a higher taxonomic grouping</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The common name or description for a species or a higher taxonomic grouping</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>notes</attributeName>
+          <attributeDefinition>The notes describing how a classcode is sampled or which species are included in higher taxonomic level classcodes</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The notes describing how a classcode is sampled or which species are included in higher taxonomic level classcodes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>size_cutoff</attributeName>
+          <attributeDefinition>The description of the size cut-off (in centimeters) for inclusion in sampling. This generally applies to organisms sampled on swath surveys. The size is indicated in addition to the corresponding measurement dimension for specific organisms</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The description of the size cut-off (in centimeters) for inclusion in sampling. This generally applies to organisms sampled on swath surveys. The size is indicated in addition to the corresponding measurement dimension for specific organisms</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED1999</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 1999. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2000</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2000. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2001</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2001. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2002</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2002. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2003</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2003. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2004</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2004. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2005</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2005. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2006</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2006. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2007</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2007. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2008</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2008. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2009</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2009. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2010</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2010. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2011</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2011. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2012</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2012. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2013</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2013. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2014</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2014. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2015</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2015. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2016</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2016. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2017</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2017. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2018</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2018. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2019</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2019. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2020</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2020. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2021</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2021. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2022</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2022. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOOKED2023</attributeName>
+          <attributeDefinition>The record of whether a classcode was sampled by the indicated group in 2023. 'yes' indicates that the organism was sampled. These columns are used to track sampling history, so that zeros are not assigned to organisms that were not sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Looked for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Not looked for</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1349</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>MLPA kelp forest site lookup table</entityName>
+      <entityDescription>Site table with associated monitoring group by year, and MPA information associated with each site</entityDescription>
+      <physical>
+        <objectName>MLPA_kelpforest_site_table.6.csv</objectName>
+        <size unit="bytes">1491295</size>
+        <authentication method="MD5">0ee72e1316272bc4fd2bef2b58488ed1</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/doi:10.25494/P6/MLPA_kelpforest_site_table.6</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>LTM_project_short_code</attributeName>
+          <attributeDefinition>MLPA Long Term Monitoring project code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>LTM_Kelp_Srock</code>
+                    <definition>Kelp and shallow rock long term monitoring program</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>campus</attributeName>
+          <attributeDefinition>The academic partner campus associated with each sampling site for a given year</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HSU</code>
+                    <definition>Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UCSC</code>
+                    <definition>University of California, Santa Cruz</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UCSB</code>
+                    <definition>University of California, Santa Barbara</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VRG</code>
+                    <definition>Vantuna Research Group, Occidental College</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>method</attributeName>
+          <attributeDefinition>Survey type and monitoring group associated with each site in each year</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SBTL_SWATH_HSU</code>
+                    <definition>Subtidal swath survey conducted by Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_SWATH_PISCO</code>
+                    <definition>Subtidal swath survey conducted by the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO) Program</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_SWATH_VRG</code>
+                    <definition>Subtidal swath survey conducted by the Vantuna Research Group at Occidental College</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_UPC_HSU</code>
+                    <definition>Subtidal upc survey conducted by Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_UPC_PISCO</code>
+                    <definition>Subtidal upc survey conducted by the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO) Program</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_UPC_VRG</code>
+                    <definition>Subtidal upc survey conducted by the Vantuna Research Group at Occidental College</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_SIZEFREQ_HSU</code>
+                    <definition>Subtidal size frequency survey conducted by Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_SIZEFREQ_PISCO</code>
+                    <definition>Subtidal size frequency survey conducted by the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO) Program</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_SIZEFREQ_VRG</code>
+                    <definition>Subtidal size frequency survey conducted by the Vantuna Research Group at Occidental College</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_FISH_CRANE</code>
+                    <definition>Subtidal fish survey conducted by the Cooperative Research and Assessment of Nearshore Ecosystems (CRANE) Program</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_FISH_HSU</code>
+                    <definition>Subtidal fish survey conducted by Humboldt State University</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_FISH_PISCO</code>
+                    <definition>Subtidal fish survey conducted by the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO) Program</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SBTL_FISH_VRG</code>
+                    <definition>Subtidal fish survey conducted by the Vantuna Research Group at Occidental College</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>survey_year</attributeName>
+          <attributeDefinition>The designated year associated with the annual survey. In most cases, survey_year and year are the same. In rare cases, surveys are completed early in the year following the designated survey year. In these cases, survey_year will differ from year</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>The unique site where the survey was performed. This site refers to a specific GPS location and is often associated with a geographic placename. Often, multiple site replicates will be associated with a single placename, and will be delineated with additional geographical or directional information (e.g. North/South/East/West/Central - N/S/E/W/CEN, Upcoast/Downcoast - UC/DC)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The unique site where the survey was performed. This site refers to a specific GPS location and is often associated with a geographic placename. Often, multiple site replicates will be associated with a single placename, and will be delineated with additional geographical or directional information (e.g. North/South/East/West/Central - N/S/E/W/CEN, Upcoast/Downcoast - UC/DC)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude</attributeName>
+          <attributeDefinition>Site latitude in WGS84. Often the specific site location is associated with a boat anchor point. If multiple anchor points are associated with a single site, this may be represent a represenatitive location for the site, or the centroid of the site</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decimaldegree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">32.6580521</minimum>
+                  <maximum exclusive="false">42.00195</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>longitude</attributeName>
+          <attributeDefinition>Site longitude in WGS84. Often specific site location is associated with a boat anchor point. If multiple anchor points are associated with a single site, this may be represent a represenatitive location for the site, or the centroid of the site</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decimaldegree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-124.24377</minimum>
+                  <maximum exclusive="false">-117.2472125</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CA_MPA_Name_Short</attributeName>
+          <attributeDefinition>California State Marine Protected Area shortname</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>California State Marine Protected Area shortname</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site_designation</attributeName>
+          <attributeDefinition>Marine Protected Area designation (level of protection), or reference for non-MPA sites</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SMR</code>
+                    <definition>State Marine Reserve</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SMCA</code>
+                    <definition>State Marine Conservation Area</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SMCA (No-Take)</code>
+                    <definition>No-Take State Marine Conservation Area</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>reference</code>
+                    <definition>reference (non-MPA)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site_status</attributeName>
+          <attributeDefinition>Site is an MPA site or a reference site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>mpa</code>
+                    <definition>Site is in an MPA</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>reference</code>
+                    <definition>Site is outside of an MPA</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Secondary_MPA_Name</attributeName>
+          <attributeDefinition>Some sites are affiliated with more than one MPA, when applicable the additional MPA is listed here</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Some sites are affiliated with more than one MPA, when applicable the additional MPA is listed here</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Secondary_site_designation</attributeName>
+          <attributeDefinition>Marine Protected Area designation (level of protection), or reference for non-MPA sites associated with the secondary affiliated MPA (note that in some cases SMCA sites are used as reference sites for SMRs)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SMR</code>
+                    <definition>State Marine Reserve</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SMCA</code>
+                    <definition>State Marine Conservation Area</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SMCA (No-Take)</code>
+                    <definition>No-Take State Marine Conservation Area</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>reference</code>
+                    <definition>reference (non-MPA)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>BaselineRegion</attributeName>
+          <attributeDefinition>Marine Protected Area region for the baseline monitoring periods</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>North Coast</code>
+                    <definition>Baseline monitoring region extending from the Oregon border to Alder Creek in Mendocino County</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>North Central Coast</code>
+                    <definition>Baseline monitoring region extending from Alder Creek in Mendocino County to Pigeon Point in San Mateo County</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Central Coast</code>
+                    <definition>Baseline monitoring region extending from Pigeon Point in San Mateo County to Point Conception in Santa Barbara County</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>South Coast</code>
+                    <definition>Baseline monitoring region extending from Point Conception in Santa Barbara County to the Mexican border</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LongTermRegion</attributeName>
+          <attributeDefinition>Marine Protected Area region for the long term monitoring period</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>North Coast</code>
+                    <definition>Long-term monitoring region extending from the Oregon border to Pigeon Point in San Mateo County</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Central Coast</code>
+                    <definition>Long-term monitoring region extending from Pigeon Point in San Mateo County to Point Conception in Santa Barbara County</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>South Coast</code>
+                    <definition>Long-term monitoring region extending from Point Conception in Santa Barbara County to the Mexican border</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>11149</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>MLPA kelp forest survey methods</entityName>
+      <entityDescription>Document describing methods for four kelp forest survey types (swath, uniforn point contact, size frequency, fish)</entityDescription>
+      <physical>
+        <objectName>MLPA_kelpforest_methods.6.pdf</objectName>
+        <size unit="bytes">84001</size>
+        <authentication method="MD5">9b6daeab053fddc6802585a6d5fda5e8</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/doi:10.25494/P6/MLPA_kelpforest_methods.6</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="number" name="number" parentSI="" unitType="dimensionless">
+          <description>a number</description>
+        </unit>
+        <unit id="meter" name="meter" parentSI="" unitType="length">
+          <description>SI unit of length</description>
+        </unit>
+        <unit id="percent" name="percent" parentSI="" unitType="dimensionless">
+          <description>ratio of two quantities as percent composition (1:100)</description>
+        </unit>
+        <unit id="centimeter" name="centimeter" parentSI="meter" unitType="">
+          <description>.01 meters</description>
+        </unit>
+        <unit id="celsius" name="celsius" parentSI="kelvin" unitType="">
+          <description>SI-derived unit of temperature</description>
+        </unit>
+        <unit id="decimaldegree" name="decimaldegree" parentSI="" unitType="">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor>
+        <app>EMLassemblyline</app>
+        <release>3.5.5</release>
+      </emlEditor>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

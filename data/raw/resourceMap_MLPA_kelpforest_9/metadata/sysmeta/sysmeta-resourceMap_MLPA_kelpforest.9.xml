@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>1</serialVersion>
+    <identifier>resourceMap_MLPA_kelpforest.9</identifier>
+    <formatId>http://www.openarchives.org/ore/terms</formatId>
+    <size>12897</size>
+    <checksum algorithm="SHA-256">b7c0aa65c87cfff5e77403163e16ca1f2d89c7ef087e3598d98c5a72f195aff0</checksum>
+    <submitter>http://orcid.org/0000-0003-1501-0861</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-1758-7026</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>http://orcid.org/0000-0003-1501-0861</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+        </allow>
+        <allow>
+            <subject>CN=opc-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>http://orcid.org/0000-0002-1758-7026</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="true" numberReplicas="3"/>
+    <obsoletes>resourceMap_MLPA_kelpforest.8</obsoletes>
+    <archived>false</archived>
+    <dateUploaded>2024-08-16T20:47:45.379+00:00</dateUploaded>
+    <dateSysMetadataModified>2024-08-16T20:47:45.487+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:CA_OPC</originMemberNode>
+    <authoritativeMemberNode>urn:node:CA_OPC</authoritativeMemberNode>
+    <fileName>resourceMap_MLPA_kelpforest.9.rdf</fileName>
+</ns3:systemMetadata>

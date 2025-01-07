@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>1</serialVersion>
+    <identifier>doi:10.25494/P6/MLPA_kelpforest_site_table.6</identifier>
+    <formatId>text/csv</formatId>
+    <size>1491295</size>
+    <checksum algorithm="SHA-256">f34453bc979f18512a6d9d430d914fb9e31ed2482abb6dc5de4bdcf5fc92523a</checksum>
+    <submitter>http://orcid.org/0000-0002-1758-7026</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-1758-7026</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+        <allow>
+            <subject>CN=opc-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>http://orcid.org/0000-0002-1758-7026</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>http://orcid.org/0000-0003-1501-0861</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="true" numberReplicas="3"/>
+    <obsoletes>doi:10.25494/P6/MLPA_kelpforest_site_table.5</obsoletes>
+    <archived>false</archived>
+    <dateUploaded>2024-06-28T02:34:43.384+00:00</dateUploaded>
+    <dateSysMetadataModified>2024-08-16T20:47:41.639+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:CA_OPC</originMemberNode>
+    <authoritativeMemberNode>urn:node:CA_OPC</authoritativeMemberNode>
+    <fileName>MLPA_kelpforest_site_table.6.csv</fileName>
+</ns3:systemMetadata>
