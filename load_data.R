@@ -63,15 +63,46 @@ PISCO_lat_lon_site <- unique(PISCO_event_data_only[,.(site, latitude, longitude)
 #Export as CSV
 fwrite(PISCO_lat_lon_site, file = file.path("data","keys","PISCO_lat_lon_site.csv"))
 
-#From UPC, only extract CCA (Crustose Corraline Algae) percent cover from 2016 onward
+#Add 0s (For each year, month, dat, site, zone, transect, if no value, set as 0)
+#This means that if there's only CCA observed in 1 year, it doesn't get a biased high value for percent cover
+#All identifying columns
+ID_col <- colnames(PISCO_upc_data_only[,c(3:11)])
+
+#Unique transects
+Unique_UPC_transects <- unique(PISCO_upc_data_only[,..ID_col])
+
+#From UPC, only extract CCA (Crustose Corraline Algae) percent cover from 2016 onward ####
 PISCO_CCA_UPC <- PISCO_upc_data_only[classcode == "CRUCOR",]
 
-#Limit to during and after 2016
-PISCO_CCA_UPC_16_23 <- PISCO_CCA_UPC[survey_year >= 2016]
+#Unique transects with CCA identified
+Unique_UPC_transects_wCCA <- unique(PISCO_CCA_UPC[,..ID_col])
 
-#Export as CSV
+#Only keep rows that do not have CCA
+rows_no_CCA <- data.table::fsetdiff(Unique_UPC_transects, Unique_UPC_transects_wCCA)
+
+#Add CCA count and pct_cov of 0
+rows_no_CCA[,count := 0][,pct_cov := 0][,classcode := "CRUCOR"][,species_definition := "Coralline Algae -Crustose"][,category := "COVER"]
+
+#Reorder new columns
+rows_to_add <- rows_no_CCA[,.(classcode,species_definition, campus, method, survey_year, year, month, day,site, zone, transect, category, count, pct_cov)]
+
+#Rbind
+PISCO_CCA_UPC_0s <- rbind(PISCO_CCA_UPC,rows_to_add, fill = T)
+
+#Limit to during and after 2016
+PISCO_CCA_UPC_16_23 <- PISCO_CCA_UPC_0s[survey_year >= 2016]
+
+#Export as CSV including year and zones
 fwrite(PISCO_CCA_UPC_16_23, file = file.path("data","processed","PISCO_CCA_UPC_16_23.csv"))
 
+#Take site averages from 2016-2023
+PISCO_CCA_UPC_site_averages <- PISCO_CCA_UPC_16_23[,.(avg_pct_cov = mean(pct_cov)),.(classcode, species_definition, campus, method, site)]
+
+#Export summarized file 
+#Export as CSV including year and zones
+fwrite(PISCO_CCA_UPC_site_averages, file = file.path("data","processed","PISCO_CCA_UPC_site_averages.csv"))
+
+#Relief and substrate ####
 #From UPC, only relief and substrate from 2016 onward
 PISCO_relief_substrate_UPC <- PISCO_upc_data_only[classcode %in% c("FLATREL", "HIREL", "MODREL", "SLTREL","BEDRK","BOULD","COB","SAND"),]
 PISCO_relief_substrate_UPC_16_23 <- PISCO_relief_substrate_UPC[survey_year >= 2016,]
@@ -79,19 +110,73 @@ PISCO_relief_substrate_UPC_16_23 <- PISCO_relief_substrate_UPC[survey_year >= 20
 #Export as CSV
 fwrite(PISCO_relief_substrate_UPC_16_23, file = file.path("data","processed","PISCO_relief_substrate_UPC_16_23.csv"))
 
-#From Swath, only gorgonian density
+#Swath ####
+#Add 0s (For each year, month, dat, site, zone, transect, if no value, set as 0)
+#This means that if there's only CCA observed in 1 year, it doesn't get a biased high value for percent cover
+#All identifying columns
+ID_col_swath <- colnames(PISCO_swath_data_only[,c(3:11)])
+
+#Unique transects
+Unique_Swath_transects <- unique(PISCO_swath_data_only[,..ID_col_swath])
+
+#From Swath, only gorgonian density ####
 gorgonian_spp <- unique(MLPA_kelpforest_taxon_table[grepl("Gorgonian",common_name) == T,classcode])
+gorgonian_spp_def <- unique(MLPA_kelpforest_taxon_table[grepl("Gorgonian",common_name) == T, species_definition])
 
 PISCO_gorgonian_swath <- PISCO_swath_data_only[classcode %in% gorgonian_spp] #Only gorgonians
 
-#Limit to during and after 2016
-PISCO_gorgonian_swath_16_23 <- PISCO_gorgonian_swath[survey_year >= 2016]
+#Identify 0 count rows that need to be added for all 5 gorgonian classcodes
+rows_to_add <- data.table()
+for(i in 1:length(gorgonian_spp)){
+  #Unique transects with gorgonian classcode
+  Unique_Swath_transects_wgorgonian <- unique(PISCO_gorgonian_swath[classcode == gorgonian_spp[i],..ID_col_swath])
+  
+  #Only keep rows that do not have specific gorgonian species
+  rows_no_gorgonians <- data.table::fsetdiff(Unique_Swath_transects, Unique_Swath_transects_wgorgonian)
+  
+  #Add count of 0
+  rows_no_gorgonians[,count := 0][,classcode := gorgonian_spp[i]][,species_definition := gorgonian_spp_def[i]]
+  
+  #Reorder new columns
+  rows_to_add_single <- rows_no_gorgonians[,.(classcode,species_definition, campus, method, survey_year, year, month, day,site, zone, transect,count)]
+  
+  #Rbind with empty dt
+  rows_to_add <- rbind(rows_to_add, rows_to_add_single)
+}
 
-#From Swath, only macrocystis
-PISCO_macrocystis_swath <- PISCO_swath_data_only[classcode %in% c("MACPYRHF","MACPYRAD")]
+
+#Rbind
+PISCO_gorgonian_swath_0s <- rbind(PISCO_gorgonian_swath,rows_to_add, fill = T)
 
 #Limit to during and after 2016
-PISCO_macrocystis_swath_16_23 <- PISCO_swath_data_only[survey_year >= 2016]
+PISCO_gorgonian_swath_16_23 <- PISCO_gorgonian_swath_0s[survey_year >= 2016]
+
+
+#Export gorgonian data as csv
+fwrite(PISCO_gorgonian_swath_16_23, file = file.path("data","processed","PISCO_gorgonian_swath_16_23.csv"))
+
+#From Swath, only macrocystis ####
+PISCO_macrocystis_swath <- PISCO_swath_data_only[classcode %in% c("MACPYRHF","MACPYRAD")] #Note, PISCO only has MACPYRAD (no data on holdfasts in swath)
+
+#Identify 0 count rows that need to be added for MACPYRAD macrocystis classcode
+
+  #Unique transects with macrocystis classcode
+  Unique_Swath_transects_wmacrocystis <- unique(PISCO_macrocystis_swath[classcode == "MACPYRAD",..ID_col_swath])
+  
+  #Only keep rows that do not have specific gorgonian species
+  rows_no_macro <- data.table::fsetdiff(Unique_Swath_transects, Unique_Swath_transects_wmacrocystis)
+  
+  #Add count of 0
+  rows_no_macro[,count := 0][,classcode := "MACPYRAD"][,species_definition := "Macrocystis pyrifera"]
+  
+  #Reorder new columns
+  rows_to_add <- rows_no_macro[,.(classcode,species_definition, campus, method, survey_year, year, month, day,site, zone, transect,count)]
+
+#Rbind
+PISCO_macrocystis_swath_0s <- rbind(PISCO_macrocystis_swath,rows_to_add, fill = T)
+
+#Limit to during and after 2016
+PISCO_macrocystis_swath_16_23 <- PISCO_macrocystis_swath_0s[survey_year >= 2016]
 
 #Export macrocystis data as csv
 fwrite(PISCO_macrocystis_swath_16_23, file = file.path("data","processed","PISCO_macrocystis_swath_16_23.csv"))
