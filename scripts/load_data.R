@@ -53,15 +53,19 @@ PISCO_upc_data_only <- MLPA_kelpforest_upc[grepl("VRG",method) == F,]
   #also adjust superlayers
 
 
-####### FOR NOW #####
+####### FOR NOW ####
 
-#For now, Just merge CCA, gorgonian, date, site, relief, substrate, lat/lon data for Maggie S. ####
+
+#For now, Just merge CCA, gorgonian, date, site, relief, substrate, lat/lon, and depth data for Maggie S. ####
 
 #Lat/Lon site
-PISCO_lat_lon_site <- unique(PISCO_event_data_only[,.(site, latitude, longitude)])
+PISCO_lat_lon_site_16_23 <- unique(PISCO_event_data_only[survey_year >= 2016,.(site, latitude, longitude)])
+
+#Only latitudes in SCB
+PISCO_lat_lon_site_16_23_SCB <- PISCO_lat_lon_site_16_23[latitude < 34.5099177] #South of Jalama Beach County Park, just north of Pt. Conception
 
 #Export as CSV
-fwrite(PISCO_lat_lon_site, file = file.path("data","keys","PISCO_lat_lon_site.csv"))
+fwrite(PISCO_lat_lon_site_16_23_SCB, file = file.path("data","keys","PISCO_lat_lon_site_16_23_SCB.csv"))
 
 #Add 0s (For each year, month, dat, site, zone, transect, if no value, set as 0)
 #This means that if there's only CCA observed in 1 year, it doesn't get a biased high value for percent cover
@@ -95,12 +99,12 @@ PISCO_CCA_UPC_16_23 <- PISCO_CCA_UPC_0s[survey_year >= 2016]
 #Export as CSV including year and zones
 fwrite(PISCO_CCA_UPC_16_23, file = file.path("data","processed","PISCO_CCA_UPC_16_23.csv"))
 
-#Take site averages from 2016-2023
-PISCO_CCA_UPC_site_averages <- PISCO_CCA_UPC_16_23[,.(avg_pct_cov = mean(pct_cov)),.(classcode, species_definition, campus, method, site)]
+#Take site x zone averages from 2016-2023
+PISCO_CCA_UPC_sitezone_averages <- PISCO_CCA_UPC_16_23[,.(avg_pct_cov = mean(pct_cov)),.(classcode, species_definition, campus, method, site, zone)]
 
 #Export summarized file 
 #Export as CSV including year and zones
-fwrite(PISCO_CCA_UPC_site_averages, file = file.path("data","processed","PISCO_CCA_UPC_site_averages.csv"))
+fwrite(PISCO_CCA_UPC_sitezone_averages, file = file.path("data","processed","PISCO_CCA_UPC_sitezone_averages.csv"))
 
 #Relief and substrate ####
 #From UPC, only relief and substrate from 2016 onward
@@ -167,10 +171,10 @@ PISCO_macrocystis_swath <- PISCO_swath_data_only[classcode %in% c("MACPYRHF","MA
   rows_no_macro <- data.table::fsetdiff(Unique_Swath_transects, Unique_Swath_transects_wmacrocystis)
   
   #Add count of 0
-  rows_no_macro[,count := 0][,classcode := "MACPYRAD"][,species_definition := "Macrocystis pyrifera"]
+  rows_no_macro[,count := 0][,size := 0][,classcode := "MACPYRAD"][,species_definition := "Macrocystis pyrifera"]
   
   #Reorder new columns
-  rows_to_add <- rows_no_macro[,.(classcode,species_definition, campus, method, survey_year, year, month, day,site, zone, transect,count)]
+  rows_to_add <- rows_no_macro[,.(classcode,species_definition, campus, method, survey_year, year, month, day,site, zone, transect,count, size)]
 
 #Rbind
 PISCO_macrocystis_swath_0s <- rbind(PISCO_macrocystis_swath,rows_to_add, fill = T)
@@ -182,7 +186,17 @@ PISCO_macrocystis_swath_16_23 <- PISCO_macrocystis_swath_0s[survey_year >= 2016]
 fwrite(PISCO_macrocystis_swath_16_23, file = file.path("data","processed","PISCO_macrocystis_swath_16_23.csv"))
 
 
+#From swath AND upc data, extract site depths
+PISCO_upc_site_zone_depth_date <- unique(PISCO_upc_data_only[survey_year >= 2016,.(survey_year, site, zone, depth)])
+PISCO_swath_site_zone_depth_date <- unique(PISCO_swath_data_only[survey_year >= 2016,.(survey_year, site, zone, depth)])
 
+#Just in case either upc or swath recorded and the other did not
+PISCO_site_zone_depth_date <- unique(rbind(PISCO_upc_site_zone_depth_date, PISCO_swath_site_zone_depth_date))
+
+#Summarize depth by site and zone
+PISCO_site_zone_depth <- PISCO_site_zone_depth_date[,.(depth = round(mean(depth, na.rm = T),1)),.(site, zone)]
+
+fwrite(PISCO_site_zone_depth, file = file.path("data","processed","PISCO_site_zone_depth.csv"))
 
 #Matching site names (if needed)
 
